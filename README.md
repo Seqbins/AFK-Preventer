@@ -7,7 +7,7 @@ A lightweight Python script that prevents AFK (Away-From-Keyboard) detection by 
 - Automatically presses a key (default: `c`) at a set interval
 - Displays live countdown and uptime in the console
 - Adjustable interval (in seconds)
-- Simple, cross-platform, and dependency-light
+- Simple, cross-platform (Windows, MacOS, Linux), and dependency-light
 - Easily stopped using `Ctrl + C`
 
 ---
