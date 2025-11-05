@@ -13,7 +13,7 @@ A lightweight Python script that prevents AFK (Away-From-Keyboard) detection by 
 ---
 
 ## Requirements
-- Python 3.8 or newer.
+- [python](https://www.python.org/) 3.8 or newer.
 - [pynput](https://pypi.org/project/pynput/) library.
 
 Install with:
