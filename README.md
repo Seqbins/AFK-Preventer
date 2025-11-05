@@ -54,7 +54,7 @@ Change 'c' to any key you prefer (e.g., 'space', 'shift', 'f', etc.).
 
 ## Example Output
 ```
-Next key press in: 45 seconds | Uptime: 00:03:25
+Next key press in: 45 seconds | Uptime: 00:03:15
 ```
 
 ---
