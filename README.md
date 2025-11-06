@@ -71,4 +71,4 @@ Do not use it to bypass AFK detection in online games or platforms that prohibit
 ---
 
 ## License
-This project is licensed under the [MIT License](LICENSE) - you’re free to use, modify, and distribute it as long as proper credit is given.
+This project is licensed under the [MIT License](LICENSE).
