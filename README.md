@@ -1,29 +1,29 @@
 # AFK Preventer
-A lightweight Python script that prevents AFK (Away-From-Keyboard) detection by simulating a periodic key press. Ideal for keeping sessions, games, or remote connections active while idle.
+A simple, lightweight Python script that keeps you from being marked AFK (Away From Keyboard) by simulating a key press every few seconds. Perfect for keeping sessions, games, or remote desktops active when you step away for a bit.
 
 ---
 
 ## Features
-- Automatically presses a key (default: `c`) at a set interval.
-- Displays live countdown and uptime in the console.
-- Adjustable interval (in seconds).
-- Simple, cross-platform (Windows, MacOS, Linux), and dependency-light.
-- Easily stopped using `Ctrl + C`.
+- Presses a key (default: `c`) automatically at your chosen interval.
+- Shows live uptime and next keypress time in the console.
+- Fully adjustable interval (in seconds).
+- Works on Windows, macOS, and Linux.
+- Lightweight and easy to stop anytime with `Ctrl + C`.
 
 ---
 
 ## Requirements
-- [Python](https://www.python.org/) 3.8 or newer.
-- [pynput](https://pypi.org/project/pynput/) library.
+- [Python 3.8+](https://www.python.org/).
+- [pynput](https://pypi.org/project/pynput/).
 
-Install with:
+Install the required dependency:
 ```bash
 pip install pynput
 ```
 
 ---
 
-## Usage
+## Getting Started
 1. Clone the repository:
 ```bash
 git clone https://github.com/Seqbins/AFK-Preventer.git
@@ -33,28 +33,28 @@ cd AFK-Preventer
 ```bash
 python AFK Preventer.py
 ```
-3. Enter your desired interval (in seconds).
-Example:
+3. Enter your interval:
 ```
 Enter interval in seconds: 60
 Started. Press Ctrl+C to stop.
 ```
-4. The script will automatically press the key `c` every 60 seconds.
+The script will now press the key `c` every 60 seconds.
 
 ---
 
 ## Customization
-You can modify the default key by editing this line inside the script:
+Want to change the key that’s pressed?
+Open the script and find this line:
 ```
 press_key('c')
 ```
-Change 'c' to any key you prefer (e.g., 'space', 'shift', 'f', etc.).
+You can replace `'c'` with any key you prefer (`'space'`, `'f'`, or `'i'`).
 
 ---
 
 ## Example Output
 ```
-Next key press in: 45 seconds | Uptime: 00:03:15
+Press #12 | Uptime: 00:04:22 | Next press at 03:45 PM
 ```
 
 ---
@@ -66,9 +66,9 @@ Created by [Seqbins](https://github.com/Seqbins).
 
 ## Disclaimer
 This tool is provided for **educational and personal use only**.
-Do not use it to bypass AFK detection in online games or platforms that prohibit automation.
+Please do not use it to bypass AFK detection in online games or services that forbid automation.
 
 ---
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+Released under the [MIT License](LICENSE).
